@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/App-Land/static/css/main.428016f8.css",
+    "main.js": "/App-Land/static/js/main.ec140594.js",
+    "static/js/787.6606bfd5.chunk.js": "/App-Land/static/js/787.6606bfd5.chunk.js",
+    "static/media/phone-features.png": "/App-Land/static/media/phone-features.9ee214e1480aa1822238.png",
+    "static/media/clients.png": "/App-Land/static/media/clients.328912c37bc5e43831a4.png",
+    "static/media/Trusted.png": "/App-Land/static/media/Trusted.84bbdf19c0083c338cdf.png",
+    "static/media/landing-img.png": "/App-Land/static/media/landing-img.09cc254d1156235fd1b4.png",
+    "static/media/order-now.png": "/App-Land/static/media/order-now.30d1f21f0629ad87ca19.png",
+    "static/media/upper-background.png": "/App-Land/static/media/upper-background.51e6b8f7176b193ad69b.png",
+    "static/media/design.png": "/App-Land/static/media/design.576df37305705a63c8cd.png",
+    "static/media/user-face.png": "/App-Land/static/media/user-face.01d9016a67bee159b43e.png",
+    "index.html": "/App-Land/index.html",
+    "main.428016f8.css.map": "/App-Land/static/css/main.428016f8.css.map",
+    "main.ec140594.js.map": "/App-Land/static/js/main.ec140594.js.map",
+    "787.6606bfd5.chunk.js.map": "/App-Land/static/js/787.6606bfd5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.428016f8.css",
+    "static/js/main.ec140594.js"
+  ]
+}
