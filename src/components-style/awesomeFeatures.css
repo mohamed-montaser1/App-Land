@@ -1,0 +1,113 @@
+@import "../main.css";
+.awesome-features {
+  opacity: 0;
+}
+.awesome-features .text-center {
+  width: 60%;
+  margin: 0 auto;
+}
+.awesome-features .text-center .choose-price {
+  width: 283px;
+  height: 57px;
+  background-color: white;
+  position: relative;
+  border-radius: 28.5px;
+  border: 1px solid #cecece;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 6px;
+}
+.awesome-features .text-center .choose-price button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 136px;
+  height: 48px;
+  border-radius: 28.5px;
+}
+.awesome-features .text-center .choose-price button:first-child {
+  margin-right: 10px;
+}
+
+.awesome-features .text-center .choose-price button.active {
+  background-color: var(--main-color);
+  color: white;
+  padding: 10px 10px;
+}
+.awesome-features .container {
+  margin-top: 57px;
+}
+.awesome-features .container .price-card-one {
+  height: 513px !important;
+}
+@media (max-width: 991px) {
+  .awesome-features .container .price-card-one {
+    margin-bottom: 70px !important;
+  }
+}
+.awesome-features .container .price-card-two {
+  height: 605px !important;
+  border: 1px solid #ebebeb;
+  border-radius: 9px;
+}
+.awesome-features .container .price-card-two button + p {
+  color: var(--main-color);
+  margin-top: 20px;
+}
+.awesome-features .container .price-card {
+  margin: 0 auto;
+  width: 317px;
+  text-align: center;
+}
+.awesome-features .container .price-card .card-header {
+  width: 317px;
+  height: 237px;
+  padding: 30px;
+}
+
+.awesome-features .container .price-card .card-header h2 {
+  font-size: 30pt;
+  color: #242f51;
+  font-weight: bold;
+  margin-bottom: 27px;
+}
+
+.awesome-features .container .price-card .card-header h2 span {
+  font-size: 15pt;
+  color: #999ca5;
+  font-weight: normal;
+}
+
+.awesome-features .container .price-card .card-header h3 {
+  color: #242f51;
+  font-weight: bold;
+  font-size: 19pt;
+  margin-bottom: 15px;
+}
+.awesome-features .container .price-card .card-header h4 {
+  font-size: 14pt;
+  color: #aaadb5;
+}
+
+.awesome-features .container .price-card .card-body ul {
+  list-style: none;
+  padding-left: 0;
+}
+.awesome-features .container .price-card .card-body ul button {
+  margin-top: 43px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.awesome-features .container .price-card .card-body ul li p {
+  color: #999ca5;
+}
+
+@media (max-width: 423px) {
+  .choose-price {
+    flex-direction: column;
+    height: 116px !important;
+    width: 178px !important;
+  }
+}

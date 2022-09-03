@@ -1,0 +1,14 @@
+@import "../main.css";
+
+.our-app .text-center {
+  width: 60%;
+  margin: 0 auto;
+  opacity: 0;
+}
+.our-app .container {
+  margin-top: 70px;
+}
+.our-app .container .col-sm-12 {
+  text-align: center;
+  opacity: 0;
+}

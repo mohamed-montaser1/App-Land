@@ -1,0 +1,85 @@
+@import "../main.css";
+@import "./customAnimation.css";
+.trusted {
+  margin-bottom: 118px !important;
+}
+.trusted .container .row .heading-text h2 {
+  opacity: 0;
+}
+.trusted .container .row .heading-text p {
+  opacity: 0;
+}
+.trusted .text-center p {
+  font-size: 16pt;
+  margin-bottom: 40px;
+  /* animation: fade-in 0.5s linear forwards; */
+  opacity: 0;
+}
+
+.trusted .container .col-12 .container .row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 117px;
+}
+
+.trusted .container .row .img-col img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 52px;
+  opacity: 0;
+}
+
+.heading-text {
+  margin-bottom: 70px;
+}
+.heading-text h2 {
+  font-weight: bold;
+}
+.content .col-12 h4 {
+  font-weight: bold;
+}
+.content .card {
+  opacity: 0;
+}
+.content .card h4 {
+  font-weight: bold;
+}
+.content .card:first-child h4 {
+  color: #f55767;
+  font-weight: bold;
+}
+
+.content .col-12 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content .col-12 img {
+  margin-right: 30px;
+}
+
+.content .card img {
+  margin-right: 20px;
+}
+.content .card:nth-child(2) h4 {
+  color: #2563ff;
+}
+.content .card:last-child h4 {
+  color: #40975f;
+}
+
+.container .row .row {
+  text-align: center;
+}
+.container .row .row .col-sm-12 img {
+  margin: 20px 0;
+  opacity: 0;
+}
+
+.trusted-img {
+  margin-bottom: 20px;
+}
+.content .container {
+  min-width: 362px;
+}

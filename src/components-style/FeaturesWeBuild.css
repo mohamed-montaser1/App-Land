@@ -1,0 +1,33 @@
+@import "../main.css";
+@import "./customAnimation.css";
+.features-we-build > .container {
+  opacity: 0;
+}
+.features-we-build .heading h2 {
+  font-weight: bold;
+}
+.features-we-build .col-sm-12 {
+  text-align: left;
+}
+.features-we-build .col-sm-12 h4 {
+  font-size: 18px;
+}
+.features-we-build .col-sm-12 p {
+  font-size: 14px;
+}
+.features-we-build .col-md-5 img {
+  width: 100%;
+  height: auto;
+}
+
+.features-we-build .row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .features-we-build .col-sm-12 {
+    text-align: center;
+  }
+}

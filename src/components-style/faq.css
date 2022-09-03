@@ -1,0 +1,50 @@
+@import "../main.css";
+
+.faq .text-center {
+  width: 60%;
+  margin: 0 auto 104px;
+  opacity: 0;
+}
+.faq .container {
+  opacity: 0;
+}
+.faq ul li {
+  margin-bottom: 40px;
+}
+.faq h4 {
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.faq .acc-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq .container-fluid {
+  margin-top: 229px;
+}
+
+.faq .download-phone img:first-child {
+  margin-right: 10px;
+}
+
+.faq .order-now {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 767px) {
+  .faq .order-now {
+    margin-top: 73px;
+  }
+  .faq .download-phone {
+    width: 60%;
+  }
+  .faq .download-phone img {
+    width: 50%;
+    height: auto;
+  }
+}

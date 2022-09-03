@@ -1,0 +1,80 @@
+@import "../main.css";
+@import "./customAnimation.css";
+.smart-jackpot .col-12 .col-sm-12 {
+  text-align: left;
+}
+.smart-jackpot .col-12 .col-sm-12:first-child:not(:last-child) {
+  margin-right: 79px;
+}
+.smart-jackpot .col-12 .col-sm-12:first-child h2 {
+  font-weight: bold;
+  font-size: 3vw;
+  opacity: 0;
+}
+
+@media (max-width: 453px) {
+  .smart-jackpot .col-12 .col-sm-12:first-child h2 {
+    font-size: 5vw;
+  }
+}
+
+.smart-jackpot .col-12 .col-sm-12:last-child {
+  position: relative;
+  padding-left: 46px;
+}
+.smart-jackpot .col-12 .col-sm-12:last-child::before {
+  content: "";
+  background-color: #4b4a48;
+  width: 1px;
+  height: 147px;
+  position: absolute;
+  left: 0;
+  opacity: 0.4;
+}
+.smart-jackpot .col-12 .col-sm-12:last-child p {
+  font-size: 1.4vw;
+  opacity: 0;
+}
+.smart-jackpot .row:last-child {
+  margin-top: 166px;
+}
+
+.smart-jackpot .row .col-sm-12 .card {
+  flex-direction: column;
+  text-align: left !important;
+  opacity: 0;
+}
+.smart-jackpot .row .col-sm-12 .card img {
+  margin: 0 auto 11px 0;
+}
+
+.smart-jackpot .row .col-sm-12 .card h4 {
+  font-weight: bold;
+}
+.smart-jackpot .row .col-sm-12:first-child .card h4 {
+  font-weight: bold;
+  color: #f55767;
+}
+.smart-jackpot .row .col-sm-12:nth-child(2) .card h4 {
+  font-weight: bold;
+  color: #2563ff;
+}
+.smart-jackpot .row .col-sm-12:last-child .card h4 {
+  font-weight: bold;
+  color: #40975f;
+}
+
+@media (max-width: 767px) {
+  .smart-jackpot .col-12 .col-sm-12:last-child::before {
+    display: none;
+  }
+  .smart-jackpot .col-12 .col-sm-12:last-child {
+    padding-left: 10px;
+  }
+  .smart-jackpot .row .col-sm-12 .card {
+    text-align: center !important;
+  }
+  .smart-jackpot .row .col-sm-12 .card img {
+    margin: 0 auto !important;
+  }
+}

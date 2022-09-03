@@ -1,0 +1,55 @@
+@import "../main.css";
+
+.clients-section .clients {
+  width: 100%;
+  height: auto;
+  margin-bottom: 60px;
+  opacity: 0;
+}
+
+.star {
+  color: #ffcc00;
+  margin: 0 6px;
+}
+.carousel {
+  opacity: 0;
+  position: relative;
+}
+.carousel-item > .text {
+  margin-top: 20px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+.user .text {
+  margin-left: 20px;
+}
+.control-container {
+  width: 100px;
+  height: fit-content;
+  position: absolute !important;
+  top: 90%;
+  right: 40px;
+  background-color: rebeccapurple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel-control-next img,
+.carousel-control-prev img {
+  position: absolute !important;
+  bottom: 0 !important;
+}
+
+.carousel-control-prev img {
+  transform: rotate(180deg);
+}
+
+@media (max-width: 459px) {
+  .control-container {
+    top: 107%;
+    right: 50%;
+  }
+}
